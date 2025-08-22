@@ -2,8 +2,8 @@
 const leia = require('readline-sync');
 
 // Entrada
-let salario = leia.questionFloat('Digite o salario do colaborador: ');
-let abodo = leia.questionFloat('Digite o abodo do colaborador: ');
+let salario = leia.questionFloat('Digite o salario: ');
+let abodo = leia.questionFloat('Digite o abodo: ');
 
 // Processamento
 let novoSalario = salario + abodo;
